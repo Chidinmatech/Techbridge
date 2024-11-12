@@ -1,0 +1,49 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    background-color: plum;
+    margin: 0%;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+    background-color: plum;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.paragraph1 {
+    color: black;
+    font-size: large;
+    background-color: yellowgreen;
+    padding: 25px;
+    align-content: center;
+}
+.paragraph2 {
+    background-color: azure;
+    color: blue;
+    font-size: large;
+    padding: 25px;
+    align-content: center;
+}
+.paragraph3 {
+    background-color: aquamarine;
+    color: orangered;
+    font-size: large;
+    padding: 25px;
+    align-content: center;
+}
+.paragraph4 {
+    background-color: azure;
+    color: royalblue;
+    font-size: large;
+    padding: 25px;
+    align-content: center;
+}

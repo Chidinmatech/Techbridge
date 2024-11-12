@@ -3,10 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="techbridge.css" />
     <title>Document</title>
 </head>
 <body>
-    <div class="object"></div>
+    <form action="/action_page.php">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="Jennifer"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Okoye"><br><br>
+            <input type="submit" value="Submit">
+            <br><br>
+        <input type="text" name="fname"><br>
+        <input type="radio" name="gender" value="male" checked> Male
+        <input type="radio" name="gender" value="female" checked> Female
+        <input type="radio" name="gender" value="others" checked> Others<br>
+        <input type="submit" value="submit">
+    </form>
 </body>
 </html>

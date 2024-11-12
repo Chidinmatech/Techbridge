@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <script>
+        // console.log("hello world has"+"hello world".length +"character");
+        // console.log("hello world"[0])
+        // console.log("hello world"[10])
+        // console.log(100+100+100/10)
+        // console.log((100+100+100)*10)
+        // age = 10
+        // isOlder =age > 4
+        // var nothing;
+        // console.log(`she is ${age} years old`)
+        // console.log(`The statement Jennifer is older than Joy is ${age>4}.`);
+        // console.log(nothing);
+        // nothing = "something"
+        // console.log(nothing);
+        // Taller = 167
+        // isTaller =Taller > 150
+        // console.log(`she has a height of ${Taller}`)
+        // console.log(`The statement Jennifer is Taller than Joy is ${Taller>150}`);
+
+        gender = "female"
+        age =19
+
+        if(gender=="female"){
+            if(age>10){
+                console.log("female children class");
+            }
+            else if (age>10&&age<20){
+                console.log("female teenage class");
+            }
+            else console.log("children only");
+        }
+        else console.log("females only")
+        switch (gender) {
+            case "male": console.log("he is a boy");
+
+            case "female": console.log("she is a female");
+            break;
+
+            default: console.log("enter your gender");
+
+            break;
+        }
+        function Name(name,age,soo){
+            console.log("my name is "+ name);
+            console.log("i am "+ age+ " old");
+            console.log("i am from"  +soo +" state,Nigeria")
+        }
+        Name("Jennifer", 24, "Anambra")
+
+        function TimesTable(num1,num2){
+            for (let index = 0; index <= num2; index++) {
+                console.log(`${num1} x ${index} = ${num1*index}`);
+                // value+= `${num1} x ${index} = ${num1*index}\n`;
+            }
+        }
+        TimesTable(2,10)
+        
+        alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q",
+        "r","s","t","u","v","w","x","y","z",];
+
+           function reverse(alpha){
+            rindex = 25 - alphabet.indexOf(alpha)
+            return alphabet[rindex]
+           }
+    </script>
+</body>
+</html>
