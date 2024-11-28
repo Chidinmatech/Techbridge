@@ -18,11 +18,20 @@
 .content_part, .form_part{
     width: 50%;
 }
+.content_part h1{
+        position: relative;
+        font-size: 50px;
+        color:blue;
+        font-style: italic;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-left: 18px;
+        padding-right: 20px;
+}
 .content_part h2{
     line-height: 40px;
     color: black;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 20px;
     padding-left: 18px;
     padding-right: 20px;
 }
