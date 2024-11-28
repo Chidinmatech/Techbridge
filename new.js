@@ -17,4 +17,4 @@ alphabet =
         return wordOutput;
     }
 
-    console.log(reverseWord("alphabet"))
+    console.log(reverseWord("how are you"))
